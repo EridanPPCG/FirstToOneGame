@@ -1,0 +1,26 @@
+public class Player {
+	
+	private String name; //name of player
+	private int points; //points player has
+	
+	public Player(String name, int points) { //constructor
+		this.name = name;
+		this.points = points;
+	}
+	
+	public String getName() { //name of player
+		return name;
+	}
+	
+	public int getPoints() { //points player has
+		return points;
+	}
+	
+	public void setName(String name) { //change name
+		this.name = name;
+	}
+	
+	public void setPoints(int points) { //change points
+		this.points = points;
+	}
+}
